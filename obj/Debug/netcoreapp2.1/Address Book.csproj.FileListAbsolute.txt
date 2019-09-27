@@ -1,0 +1,24 @@
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.deps.json
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.runtimeconfig.json
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.runtimeconfig.dev.json
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.dll
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.pdb
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.Views.dll
+C:\Users\suyash.s\source\repos\Address Book\Address Book\bin\Debug\netcoreapp2.1\Address Book.Views.pdb
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.csprojAssemblyReference.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.csproj.CoreCompileInputs.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.RazorAssemblyInfo.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.RazorAssemblyInfo.cs
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.AssemblyInfoInputs.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.AssemblyInfo.cs
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.TagHelpers.input.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.TagHelpers.output.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.RazorCoreGenerate.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.RazorTargetAssemblyInfo.cache
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.RazorTargetAssemblyInfo.cs
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.Views.pdb
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.dll
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.pdb
+C:\Users\suyash.s\source\repos\Address Book\Address Book\obj\Debug\netcoreapp2.1\Address Book.csproj.CopyComplete
