@@ -24,7 +24,15 @@ export class ContactInfo {
   deleteData() {
     this.services.removeContact(this.details);
     this.triggerRefresh.emit();
-    this.details = null;
+    this.details = {};
   }
+
+  isEmpty(obj) {
+  for (var key in obj) {
+    if (obj.hasOwnProperty(key))
+      return false;
+  }
+  return true;
+}
 
   }

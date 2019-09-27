@@ -1,10 +1,10 @@
-<div id="content-address-info" *ngIf="details['name'].length>0">
+<div id="content-address-info" *ngIf="!isEmpty(details)">
 
   <div id="content-first-line">
     <div id="content-name">{{details.name}}</div>
     <div id="content-buttons">
-      <div id="content-edit" (click)="editData()"><img src="./content/media/Edit-icon.png"><span>EDIT</span></div>
-      <div id="content-delete" (click)="deleteData()"><img src="./content/media/delete2.png"><span>DELETE</span></div>
+      <div id="content-edit" (click)="editData()"><img src="assets/Edit-icon.png"><span>EDIT</span></div>
+      <div id="content-delete" (click)="deleteData()"><img src="assets/delete2.png"><span>DELETE</span></div>
     </div>
   </div>
 

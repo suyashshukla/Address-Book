@@ -40,6 +40,7 @@ export class AppComponent implements OnInit {
 
   toggleForm() {
     this.formFlag = !this.formFlag;
+    this.infoContent = {};
   }
 
   display(contact) {

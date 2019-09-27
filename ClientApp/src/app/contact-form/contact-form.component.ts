@@ -35,6 +35,14 @@ export class ContactForm {
 
   }
 
+  isVacant(obj) {
+  for (var key in obj) {
+    if (obj[key]!="")
+      return false;
+  }
+  return true;
+}
+
   addNew(contact) {
 
       var uContact = {
@@ -46,19 +54,21 @@ export class ContactForm {
         address: contact['address'] != "" ? contact['address'] : this.editData['address'],
     }
 
+
+
+
     if (this.service.getContacts().indexOf(this.editData) >= 0) {
       this.service.updateContact(uContact, this.editData);
       this.addForm.reset();
-      this.closeLightBox.emit();
       this.editData = {};
     }
-    else {
+    else if (!this.isVacant(contact)) {
       this.service.addContact(contact);
       this.addForm.reset();
-      this.closeLightBox.emit();
     }
 
 
+    this.closeLightBox.emit();
     
    
   }
