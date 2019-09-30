@@ -8,6 +8,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class NavMenuComponent {
 
   @Output() lightBox = new EventEmitter();
+  @Output() homeScreen = new EventEmitter();
 
   hit() {
     window.alert("hello   ");

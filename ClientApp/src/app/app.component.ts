@@ -38,9 +38,12 @@ export class AppComponent implements OnInit {
   }
 
 
+  closeForm() {
+    this.formFlag = false;
+  }
+
   toggleForm() {
-    this.formFlag = !this.formFlag;
-    this.infoContent = {};
+    this.formFlag = true;
   }
 
   display(contact) {

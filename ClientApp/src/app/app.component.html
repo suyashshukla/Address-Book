@@ -1,16 +1,16 @@
 <div>
-  <app-nav-menu (lightBox)="toggleForm()"></app-nav-menu>
-  <div class="row">
-    <div class="col-sm-4" *ngIf="dataFlag">
-      <div *ngFor="let contact of contacts">
-        <app-item (display)="display(contact)" [details]="contact"></app-item>
-      </div>
+    <app-nav-menu (lightBox)="toggleForm()" (homeScreen)="closeForm()"></app-nav-menu>
+    <div class="row">
+        <div class="col-sm-4" *ngIf="dataFlag">
+            <div *ngFor="let contact of contacts">
+                <app-item (display)="display(contact)" [details]="contact"></app-item>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <app-info [details]="infoContent" (triggerRefresh)="fetchData()" (triggerForm)="editFormVisible()"></app-info>
+            <div *ngIf="formFlag">
+                <app-form (closeLightBox)="closeBox()" [editData]="infoContent"></app-form>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-8">
-      <app-info [details]="infoContent" (triggerRefresh)="fetchData()" (triggerForm)="editFormVisible()"></app-info>
-      <div *ngIf="formFlag">
-        <app-form (closeLightBox)="closeBox()" [editData]="infoContent"></app-form>
-      </div>
-    </div>
-  </div>
 </div>
