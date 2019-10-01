@@ -43,6 +43,7 @@ export class AppComponent implements OnInit {
   }
 
   toggleForm() {
+    this.infoContent = {};
     this.formFlag = true;
   }
 
